@@ -2,7 +2,7 @@
 
 #####How to use:
 
-Download the readmore.js and include it inside <head> tag of your HTML file.
+Download the readmore.js and include it inside `<head>` tag of your HTML file.
 
 eq.
 > `<script src="js/readmore.js"></script>`
