@@ -1,14 +1,17 @@
-
 (function ( $ ) {
  
     $.fn.readmore = function(char) {
 
         var self = $(this)
         var orgContent = self.html();
-
+        
+        if (char==undefined) {
+            char = 500;
+        }
+        
         if (self.html().length < char) {return self;}
 
-        var txtContent = self.html().substr(0, 500) + '... <a href="#" id="morelink">Read more</a>';
+        var txtContent = self.html().substr(0, char) + '... <a href="#" id="morelink">Read more</a>';
         self.html(txtContent);
         $("body").on("click", '#morelink', function(e){
             e.preventDefault();
