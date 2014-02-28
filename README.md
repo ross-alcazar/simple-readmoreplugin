@@ -1,4 +1,4 @@
 simple-readmoreplugin
 =====================
 
-Simple Jquery Read More plugin
+###Simple Jquery Read More plugin
