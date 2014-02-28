@@ -5,7 +5,7 @@
 Download the readmore.js and include it inside <head> tag of your HTML file.
 
 eq.
-> <script src="js/readmore.js"></script>
+> `<script src="js/readmore.js"></script>`
 
 How to use it:
 
